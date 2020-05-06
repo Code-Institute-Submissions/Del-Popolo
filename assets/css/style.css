@@ -11,25 +11,39 @@ body {
 
 }
 
+/*header */
+
+.header {
+    background: url("../images/test.jpg");
+    background-size: 100% 75%;
+    background-repeat: no-repeat;
+    height: 600px;
     
+   
+
+}
+
+#header {
+    height: 475px;  
+}
+
+
+/* About Us */
 
 .about_us {
-    margin-top: 50px;
     text-align: center;
 }
 
 .about_img {
     width: 50%;
     float: left;
-    padding: 20px;
+    padding: 10px;
     
 }
 
 .about_txt {
   line-height: 150%;
-  margin-top: 40px;
+  padding: 15px;
 
 }
 
-
-    
