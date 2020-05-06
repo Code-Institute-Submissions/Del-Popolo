@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+  
 }
 
 body {
@@ -10,13 +11,25 @@ body {
 
 }
 
+    
 
-  
+.about_us {
+    margin-top: 50px;
+    text-align: center;
 }
 
+.about_img {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    
+}
 
+.about_txt {
+  line-height: 150%;
+  margin-top: 40px;
 
-
+}
 
 
     
