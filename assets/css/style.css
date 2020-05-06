@@ -11,6 +11,12 @@ body {
 
 }
 
+/* nav text */
+
+.nav_txt {
+    font-size: 145%;
+}
+
 /*header */
 
 .header {
@@ -18,9 +24,7 @@ body {
     background-size: 100% 75%;
     background-repeat: no-repeat;
     height: 600px;
-    
    
-
 }
 
 #header {
@@ -35,15 +39,24 @@ body {
 }
 
 .about_img {
-    width: 50%;
+    width: 60%;
     float: left;
-    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 30px;
     
 }
 
 .about_txt {
-  line-height: 150%;
-  padding: 15px;
+    line-height: 150%;
+    padding: 15px;
 
+}
+
+/* current location */
+
+.map_txt {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 15px;
 }
 
