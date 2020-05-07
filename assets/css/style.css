@@ -125,7 +125,6 @@ body {
 }
 
 /* Footer*/
-
 .black {
     background-color: #434344;
     width: 100%;
@@ -326,4 +325,36 @@ body {
    font-weight: 400;
    color: #434344!important;
    font-size: 14px;
+}
+
+/*Calendar*/
+
+#times {
+  background: url("../images/orlando.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  height: 550px;
+
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  text-align: center;
+  height:550px;
+  overflow: hidden;
+  border: 1px solid #FFFFFF;
+}
+
+#times h2 {
+  margin-top: 150px;
+  text-decoration: none;
+   color: #fafafa;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }
