@@ -35,17 +35,13 @@ body {
 /*header */
 
 .header {
-    background: url("../images/brisket.jpg");
-    background-size: 100% 75%;
+    background: url("../images/truck.jpg") center center;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 550px;
+    margin-bottom: 35px;
    
 }
-
-#header {
-    height: 475px;  
-}
-
 
 /* About Us */
 
@@ -55,16 +51,12 @@ body {
 
 .about_img {
     width: 60%;
-    float: left;
-    margin-right: 15px;
-    margin-bottom: 30px;
+    float: left; 
     
 }
 
 .about_txt {
-    line-height: 150%;
-    padding: 15px;
-
+    margin-top: 50px;
 }
 
 /* current location */
@@ -92,6 +84,7 @@ body {
     letter-spacing: 2px;
     line-height: 1.2em;
     text-align: center;
+    margin-top: 10px;
    
 }
 
