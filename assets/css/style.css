@@ -376,3 +376,8 @@ h2 a {
 a:hover {
   background-position: 0 100%;
 }
+
+.white {
+    color: white;
+}
+
