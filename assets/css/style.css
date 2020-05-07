@@ -70,7 +70,7 @@ body {
 /* Reviews */
 
 .review_h2 {
-    text-align: center;
+    text-align: left;
    
 }
 
@@ -297,4 +297,33 @@ body {
     margin-right:0;
     font-weight:600
   }
+}
+
+
+/* Menu Page */
+
+/* Menu Text */
+
+.menu_title_txt {
+    font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #434344!important;
+    letter-spacing: 1px;
+    font-size: 26px;
+}
+
+.menu_food_txt {
+    font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+   font-weight: 600;
+   color: #434344!important;
+   font-size: 19px;
+
+}
+
+.menu_txt {
+   font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+   font-weight: 400;
+   color: #434344!important;
+   font-size: 14px;
 }
