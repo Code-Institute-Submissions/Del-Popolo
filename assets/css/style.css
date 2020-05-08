@@ -124,7 +124,7 @@ body {
     text-transform: uppercase!important;
     background-color: rgba(0,0,0,0);
 }
-
+<!-- Site footer from https://codepen.io/scanfcode/pen/MEZPNd-->
 /* Footer*/
 .black {
     background-color: #434344;
@@ -298,9 +298,9 @@ body {
     font-weight:600
   }
 }
+<!-- Site footer from https://codepen.io/scanfcode/pen/MEZPNd-->
 
 
-/* Menu Page */
 
 /* Menu Text */
 
@@ -365,7 +365,7 @@ h2 a {
     font-size: inherit;
     font-weight: 800;
     overflow: hidden;
-    background: linear-gradient(to right, #434344, #434343 50%, #FFFFFF 50%);
+    background: linear-gradient(to right, #434344, #434344 50%, #FFFFFF 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
