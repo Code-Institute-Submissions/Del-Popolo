@@ -59,6 +59,14 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [CodePen]//codepen.io/scanfcode/pen/MEZPNd)
     - The project uses **Code Pen** I used a footer template from this site that is used at the bottom of every page on the site. I made the code my own by through customization. I made it so that it is responsive in Bootstrap, changed the background color, font color, content, css hover, and layout. 
     
+ - [Font Awesome](https://Fontaesome.com)
+    - The project uses **Font Awesome**. All of the social media Icons in the footer are from Font Awesome).
+    
+ - [Bootstrap](https://mdbootstrap.com/docs/jquery/forms/contact/)
+    - The project uses **Bootstrap** to create the form on the contact page. This was not my own code.).
+
+
+    
     
 ## Testing
 The first step in the process of testing my code was to use online W3C Validators for both HTML and CSS. Once the code was able to pass both of these validators without errors, I moved on to the next phase of testing. The second testing phase was done as that fron a users. As a user I went through the entire site and tested all of my internal and external links, tested images, hover options, social media links, and responsiveness. 
