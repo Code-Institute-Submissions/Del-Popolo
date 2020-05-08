@@ -92,11 +92,18 @@ Further reading and troubleshooting on cloning a repository from GitHub here.
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All of the text from the site was copied from two websites.
+*http://www.treehousetruck.com/ 
+    *About Us
+    *Menu
+    
+*https://www.thecrepecompany.com/menu/
+    *Catering Food Truck
+    *Reasons to choose Del Popolo
 
 ### Media
-- The photos used in this site were obtained from ...
+- All of the photos from the site were acquired via Google Images.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from DelPopolo.com, treehousetruck.com, thecrepecompany.com, and code institute mini projects.
