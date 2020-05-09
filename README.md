@@ -1,5 +1,5 @@
 # Del popolo
- This website was built for a food truck in Orlando Florida. The website features information about the food truck, its menu, and services. The site was created in order to intuitively fill the needs of information seeking customers with an intriguing, clean design. Providing them with location and contact information, catering information, and upcoming events.
+ This website was built for a food truck in Orlando Florida. The website features information about the food truck, its menu, and services. The site was created to intuitively fill the needs of information seeking customers with an intriguing, clean design. Providing them with location, contact information, catering information, and upcoming events.
 
 ## UX
 ### Project Goals:
@@ -62,8 +62,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
  - [Font Awesome](https://Fontaesome.com)
     - The project uses **Font Awesome**. All of the social media Icons in the footer are from Font Awesome).
     
- - [Bootstrap](https://mdbootstrap.com/docs/jquery/forms/contact/)
-    - The project uses **Bootstrap** to create the form on the contact page. This was not my own code.).
+ - [Bootstrap](https://www.youtube.com/watch?v=vUXdZuw_KP8)
+    - The project uses **Bootstrap** to create the form on the contact page. "How to Create Forms Using Bootstrap" Video found on youtube.).
 
 
     
