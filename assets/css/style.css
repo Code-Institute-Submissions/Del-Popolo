@@ -29,7 +29,7 @@ body {
 /* nav text */
 
 .nav_txt {
-    font-size: 145%; 
+    font-size: 115%; 
     
 }
 
@@ -124,17 +124,17 @@ body {
     text-transform: uppercase!important;
     background-color: rgba(0,0,0,0);
 }
-<!-- Site footer from https://codepen.io/scanfcode/pen/MEZPNd-->
+/* Site footer from https://codepen.io/scanfcode/pen/MEZPNd-->*/
 /* Footer*/
+
 .black {
     background-color: #434344;
     width: 100%;
     height: 300px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 50px;
 }
-
 .site-footer
 {
   background-color:#26272b;
