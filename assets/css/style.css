@@ -13,15 +13,15 @@
 .heading_txt {
     font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
     font-weight: 700;
-    font-size: 36px;
-    color: #434344!important;
+    font-size: 30px;
+    color: black!important;
     line-height: 1.1em;
 }
 
 body {
     font-family: 'Playfair Display','Roboto', sans-serif;
-    color: #555555;
-    font-size: 145%;
+    color: black;
+    font-size: 105%;
     
 
 }
@@ -30,6 +30,7 @@ body {
 
 .nav_txt {
     font-size: 115%; 
+    color: black;
     
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .about_txt {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 /* current location */
@@ -78,7 +79,7 @@ body {
 /* Banner */
 
 .banner {
-    background-color: #434344;
+    background-color: #63923B;
     font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
     font-weight: 700;
     color: #FFFFFF!important;
@@ -103,14 +104,27 @@ body {
     margin-top: 50px;
 }
 
+.img_2 {
+    height: 55%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.img_2_txt {
+    text-align: center;
+}
+
 .banner_headings {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 15px;
 
 }
 
 .banner_txt {
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .butt_1 {
@@ -128,7 +142,7 @@ body {
 /* Footer*/
 
 .black {
-    background-color: #434344;
+    background-color: #A9A9A9;
     width: 100%;
     height: 300px;
     color: #FFFFFF;
@@ -137,7 +151,7 @@ body {
 }
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#808080;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -298,7 +312,7 @@ body {
     font-weight:600
   }
 }
-<!-- Site footer from https://codepen.io/scanfcode/pen/MEZPNd-->
+/* footer from https://codepen.io/scanfcode/pen/MEZPNd*/
 
 
 
@@ -308,7 +322,7 @@ body {
     font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #434344!important;
+    color: black!important;
     letter-spacing: 1px;
     font-size: 26px;
 }
@@ -316,7 +330,7 @@ body {
 .menu_food_txt {
     font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
    font-weight: 600;
-   color: #434344!important;
+   color: black!important;
    font-size: 19px;
 
 }
