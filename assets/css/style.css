@@ -44,10 +44,11 @@ body {
 
 /*header */
 
+
 .callout-container {
     height: 100vh;
 
-    background: url('../images/truck.jpg') no-repeat center center fixed;
+    background: url('../images/header.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -67,6 +68,29 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
 
 .btn {
