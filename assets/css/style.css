@@ -161,7 +161,7 @@ body {
 
 .img_2 {
     height: 55%;
-    margin-top: 50px;
+    margin-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -174,12 +174,12 @@ body {
 
 .banner_headings {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
 
 }
 
 .banner_txt {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .butt_1 {
