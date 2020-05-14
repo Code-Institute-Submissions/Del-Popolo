@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Patrick+Hand&display=swap');
 
 
 
@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 }
 
 .heading_txt {
-    font-family: 'Indie Flower','Playfair Display',"Times New Roman",serif;
+    font-family: 'Patrick Hand', cursive,'Playfair Display',"Times New Roman",serif;
     font-weight: 700;
     font-size: 30px;
     color: black!important;
@@ -25,9 +25,9 @@ h1, h2, h3, h4 {
 }
 
 body {
-    font-family: 'Indie Flower','Playfair Display',"Times New Roman",serif;
+    font-family: 'Patrick Hand', cursive,'Playfair Display',"Times New Roman",serif;
     color: black;
-    font-size: 115%;
+    font-size:115%;
     font-weight: 500;
     
 
@@ -219,6 +219,26 @@ body {
    color: #434344!important;
    font-size: 14px;
 }
+
+/*Menu header*/
+.menu-container {
+    height: 100vh;
+
+    background: url('../images/menu.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+/*Menu header*/
 
 /*Events*/
 
