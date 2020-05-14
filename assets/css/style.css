@@ -1,7 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Patrick+Hand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
 
 
 h1, h2, h3, h4 {
@@ -17,7 +15,7 @@ h1, h2, h3, h4 {
 }
 
 .heading_txt {
-    font-family: 'Patrick Hand', cursive,'Playfair Display',"Times New Roman",serif;
+    font-family: 'Dosis',"Times New Roman",serif;
     font-weight: 700;
     font-size: 30px;
     color: black!important;
@@ -25,7 +23,7 @@ h1, h2, h3, h4 {
 }
 
 body {
-    font-family: 'Patrick Hand', cursive,'Playfair Display',"Times New Roman",serif;
+    font-family: 'Dosis',"Times New Roman",serif;
     color: black;
     font-size:115%;
     font-weight: 500;
@@ -46,7 +44,8 @@ body {
 
 
 .callout-container {
-    height: 100vh;
+    height: 850px;
+    
 
     background: url('../images/header.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -198,7 +197,7 @@ body {
 /* Menu Text */
 
 .menu_title_txt {
-    font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Dosis',"Times New Roman",serif;
     font-weight: 700;
     text-transform: uppercase;
     color: black!important;
@@ -207,7 +206,7 @@ body {
 }
 
 .menu_food_txt {
-   font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+   font-family: 'Dosis',"Times New Roman",serif;
    font-weight: 600;
    color: black!important;
    font-size: 19px;
@@ -215,7 +214,7 @@ body {
 }
 
 .menu_txt {
-   font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+   font-family: 'Dosis',"Times New Roman",serif;
    font-weight: 400;
    color: #434344!important;
    font-size: 14px;
@@ -223,7 +222,7 @@ body {
 
 /*Menu header*/
 .menu-container {
-    height: 700px;
+    height: 650px;
     width: 100%;
 
     background: url('../images/menu.jpg') no-repeat center center fixed;
@@ -238,60 +237,52 @@ body {
 
     position: relative;
 }
+/* Events Header */
 
-
-/*Events*/
-
-#times {
-  background: url("../images/orlando.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.con_for_overlay {
+  position: relative;
   width: 100%;
-  overflow: hidden;
-  height: 550px;
-
 }
 
-#times div {
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, .6);
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.con_for_overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-  height:550px;
-  overflow: scroll;
-  border: 1px solid #FFFFFF;
 }
 
-#times h2 {
-  margin-top: 150px;
-  text-decoration: none;
-  color: #fafafa;
 
-   /* css hover */
-}
-h2 a {
-    color:inherit;
-    text-decoration: none;
-    position: relative;
-    display: inline-block;
-    font-size: inherit;
-    font-weight: 800;
-    overflow: hidden;
-    background: linear-gradient(to right, #434344, #434344 50%, #FFFFFF 50%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 275ms ease;
-}
-a:hover {
-  background-position: 0 100%;
-}
+  
 
-.white {
-    color: white;
-}
+ 
 
 /* Site footer referenced from https://codepen.io/scanfcode/pen/MEZPNd-->*/
 /* Footer*/
