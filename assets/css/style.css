@@ -238,7 +238,24 @@ body {
     position: relative;
 }
 /* Events Header */
+.events-container {
+    height: 650px;
+    width: 100%;
 
+    background: url('../images/local_events.jpg') no-repeat center center fixed;
+    -webkit-background-size:  cover;
+    -moz-background-size:  cover;
+    -o-background-size:  cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+/* /Events Header */
+/* Events Overlay section*/
 .con_for_overlay {
   position: relative;
   width: 100%;
@@ -248,6 +265,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
+  border: 1px solid black;
 }
 
 .overlay {
@@ -277,6 +295,14 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#events {
+    background-color: #d78258;
+    margin-top:80px;
+    margin-bottom: 80px;
+    padding-bottom: 60px;
+    
 }
 
 
