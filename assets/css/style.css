@@ -70,6 +70,10 @@ body {
   color: white;
   font-weight: bold;
   margin-bottom: 30px;
+  text-decoration: none;
+  font-size: 60px;
+  margin-top: 150px;
+  font-family: 'Dosis';
 }
 
 .jumbotron .lead {
@@ -84,8 +88,15 @@ body {
   color: #d0d0d0;
 }
 
+/* Callout Button */
 .btn {
   background-color: #d78258;
+  margin-top: 20px;
+}
+
+.button_anchor {
+    text-decoration: none !important; 
+    color: black !important;
 }
 
 /* About Us */
@@ -314,6 +325,12 @@ body {
   margin-right: auto;
   display: block;
   width: 100%;
+  text-align: center;
+}
+
+.container-sm h1 {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .catering {
