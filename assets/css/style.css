@@ -123,7 +123,7 @@ body {
 .map_txt {
   text-align: center;
   overflow: hidden;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 /* Reviews */
@@ -142,8 +142,8 @@ body {
   letter-spacing: 2px;
   line-height: 1.2em;
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 65px;
 }
 
 .banner_h3 {
@@ -228,6 +228,27 @@ body {
   font-weight: 400;
   color: #434344 !important;
   font-size: 19px;
+}
+
+.menu_main_section {
+  margin-top: 40px;
+}
+
+.menu_main_section div {
+  text-align: center;
+}
+
+.menu_main_section div h2 {
+  margin-top: 40px;
+}
+
+.menu_sides h1 {
+  text-align: center; 
+  margin-top: 40px;
+}
+
+.txt_centered {
+    text-align: center;
 }
 
 /*Menu header*/
@@ -520,3 +541,62 @@ body {
   }
 }
 /* footer from referenced from https://codepen.io/scanfcode/pen/MEZPNd*/
+
+
+
+
+.parallax-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    box-sizing: border-box;
+}
+.regular-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    background-image: url("../images/catering.jpg");
+}
+.content {
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+    background: #aaa;
+}
+
+.parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-image: url("../images/catering.jpg");
+    position: absolute;
+    z-index: -1;
+}
+
+html {
+    overflow: hidden;
+}
+body {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.parallax-wrapper {
+    transform-style: preserve-3d;
+}
+
+.parallax-wrapper::before {
+    transform:translateZ(-1px) scale(2);
+}
+
+.parallax-wrapper::before {
+    z-index: -1;
+}
+.regular-wrapper {
+    z-index: 2;
+    position: relative;
+}
