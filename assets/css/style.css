@@ -30,10 +30,16 @@ body {
 
 /* nav text */
 
-.nav_txt {
-  font-size: 115%;
-  color: black;
+
+
+#navbarNav ul li,
+.nav_txt,
+.navbar-brand {
+   font-size: 22px !important;
+   color: black !important;
+   font-family: "Dosis", "Times New Roman", serif;
 }
+
 
 /*header */
 
@@ -136,7 +142,7 @@ body {
 
 .banner {
   background-color: #ccdcc1;
-  font-family: "Indie Flower", "Playfair Display", "Times New Roman", serif;
+  font-family: 'Dosis', "Times New Roman", serif;
   font-weight: 700;
   color: #ffffff !important;
   letter-spacing: 2px;
