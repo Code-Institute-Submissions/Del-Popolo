@@ -382,6 +382,10 @@ body {
   margin-bottom: 25px;
 }
 
+.catering div {
+    background-color: #a9916b;
+}
+
 .container-sm h1 {
     text-align: center;
     margin-top: 40px;
@@ -407,14 +411,6 @@ body {
   justify-content: center;
 
   position: relative;
-}
-
-/*Contact Body BG*/
-
-.cont_body_bg{
-    background-image: url('../images/rustic_background.jpg'); 
-    background-repeat: no-repeat; 
-    background-size: cover;
 }
 
 
