@@ -34,10 +34,17 @@ body {
 
 }
 
+.text_center {
+    text-align: center;
+}
+
+
+
+
+
+
+
 /* nav text */
-
-
-
 #navbarNav ul li,
 .nav_txt,
 .navbar-brand {
@@ -45,6 +52,12 @@ body {
    color: black !important;
    font-family: "Dosis", "Times New Roman", serif;
 }
+
+
+
+
+
+
 
 
 /*header */
@@ -100,6 +113,13 @@ body {
   color: #d0d0d0;
 }
 
+
+
+
+
+
+
+
 /* Callout Button */
 .btn {
   background-color: #d78258;
@@ -110,6 +130,13 @@ body {
     text-decoration: none !important; 
     color: black !important;
 }
+
+
+
+
+
+
+
 
 /* About Us */
 
@@ -130,6 +157,13 @@ body {
   margin-top: 25px;
 }
 
+
+
+
+
+
+
+
 /* current location */
 
 .map_txt {
@@ -138,11 +172,24 @@ body {
   margin-top: 30px;
 }
 
+
+
+
+
+
+
 /* Reviews */
 
 .review_h2 {
   text-align: left;
 }
+
+
+
+
+
+
+
 
 /* Banner */
 
@@ -219,6 +266,9 @@ body {
 
 
 
+
+
+
 /* Menu Text */
 
 .menu_title_txt {
@@ -265,6 +315,11 @@ body {
     text-align: center;
 }
 
+
+
+
+
+
 /*Menu header*/
 .menu-container {
   height: 650px;
@@ -282,6 +337,12 @@ body {
 
   position: relative;
 }
+
+
+
+
+
+
 /* Events Header */
 .events-container {
   height: 650px;
@@ -300,6 +361,12 @@ body {
   position: relative;
 }
 /* /Events Header */
+
+
+
+
+
+
 
 /* Events Overlay section*/
 .con_for_overlay {
@@ -359,6 +426,13 @@ body {
      padding: 5px;
  }
 
+
+
+
+
+
+
+
 /* Catering Header */
 .catering-container {
   height: 800px;
@@ -377,6 +451,11 @@ body {
   position: relative;
 }
 /*Catering Header */
+
+
+
+
+
 
 /*Catering  */
 .container-sm {
@@ -403,6 +482,10 @@ body {
   background-color: #e3d6ab;
 }
 
+
+
+
+
 /*Contact Header*/
 .contact-container {
   height: 650px;
@@ -422,6 +505,9 @@ body {
 }
 
 
+
+
+
 /* contact Form*/
 input, label {
     display: block;
@@ -433,30 +519,67 @@ input[type=text], select, textarea {
   border-radius: 4px; /* Rounded borders */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
+  width: 85%;
+ 
 }
 
-/* Style the submit button with a specific background color etc */
+
+
+
+/* submit button  */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color:  #d78258;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 75%;
+  margin-top: 20px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+
+
+
+
+/* Hover */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color:#ccdcc1;
 }
 
-/* Add a background color and some padding around the form */
- .test {
+#con_form {
+
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 75px;
  
 }
+
+#con_information {
+    margin-left: 45px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+
+
+#con_information h3 {
+margin-top: 60px;
+}
+
+.fa-arrow-right{
+    color:  #d78258;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 
 
