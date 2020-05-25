@@ -452,7 +452,13 @@ body {
 }
 /*Catering Header */
 
-
+/*Contact content*/
+.contact_h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+  line-height: 1.1em;
+}
 
 
 
