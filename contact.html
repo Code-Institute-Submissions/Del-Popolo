@@ -87,37 +87,44 @@
 
 
     <!--Contact Form-->
-    <div class="container con_fl">
-        <form action="">
-        <div class="row">
-            <div class="col-75">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    <div class="container">
+            <div class="row">
+                <div id="con_form" class="col-sm-12 col-lg-5  box-shadow text_center">
+                    <form>
+                        <label for="fname">First Name</label>
+                        <input class="center" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                        <label for="lname">Last Name</label>
+                        <input  class="center" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                        <label for="email">Email</label>
+                        <input  class="center" type="text" id="email" name="email" placeholder="Your email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                        <input  class="center" type="submit" value="Submit" >
+                    </form>
+                    <div>
+                        <hr>
+                        <h4>Contact Information</h4>
+                        <p><i class="fas fa-map-marker-alt fa-fw" ></i>&nbsp;9793 S Orange Blossom Trail,<br> Orlando, FL 32837, United States</p>
+                         <p><i class="fas fa-phone"></i>&nbsp;+45 87 89 63 25</p>
+                        <p><i class="fas fa-envelope"></i>&nbsp;DelPopolo@gmail.com</p>
+                    </div>
+                </div>
+
+                <div id="con_information" class="col-sm-12 col-lg-5">
+                    <h2>How Can We Help?</h2>
+                    <p>Please select a topic below related to your inquiry. If you don’t find what you need, fill out our contact form.</p>
+                    <h3>Whats on the menu?</h3>
+                    <p>Check out our rockin menu!</p> <a href="menu.html"> <i class="fas fa-arrow-right fa-lg"></i></a>
+                    <hr>
+                    <h3>Where can you find us?</h3>
+                    <p>Check out our current location. Location is real time and updated everytime we change locations.</p><a href="https://goo.gl/maps/TZSFhrwQFpQqKA3D6"><i class="fas fa-arrow-right fa-lg"></i></a>
+                    <hr>
+                    <h3>Get Inspired</h3>
+                    <p>Discover the many ways in which our customers use Sleeknote.</p><i class="fas fa-arrow-right fa-lg"></i>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-75">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-75">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="Your email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-75">
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <input type="submit" value="Submit" >
-        </div>
-        </form>
-    </div>
+    </div>   
+       
     <!--Contact Form-->
     
 
