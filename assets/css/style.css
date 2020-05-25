@@ -3,7 +3,9 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   text-decoration: underline;
   text-decoration-color: #d78258;
 }
@@ -26,6 +28,10 @@ body {
   color: black;
   font-size: 120%;
   font-weight: 500;
+}
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 /* nav text */
@@ -380,10 +386,12 @@ body {
   width: 100%;
   text-align: center;
   margin-bottom: 25px;
+ 
 }
 
 .catering div {
     background-color: #a9916b;
+   
 }
 
 .container-sm h1 {
@@ -415,56 +423,42 @@ body {
 
 
 /* contact Form*/
-input[type=text], select, textarea{
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
+input, label {
+    display: block;
 }
 
-/* Style the label to display next to the inputs */
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+input[type=text], select, textarea {
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
 }
 
-/* Style the submit button */
-input[type=submit] { 
-  background-color: #d78258;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  display: block;
-  width: 50%;
 }
 
-/* Style the container */
-.con_fl {
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+ .test {
   border-radius: 5px;
+  background-color: #f2f2f2;
   padding: 20px;
-  margin-top: 125px;
-  margin-bottom: 125px;
-  background-color:	#e3d6ab;
+ 
 }
-  
 
-/* Floating column for inputs: 75% width */
-.col-75 {
-  width: 60%;
-  margin-top: 6px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 
-}
 
 
 
