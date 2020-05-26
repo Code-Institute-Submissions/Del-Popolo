@@ -107,15 +107,6 @@ body {
   font-size: 20px;
 }
 
-.jumbotron small {
-  font-size: 60%;
-  font-style: italic;
-  color: #d0d0d0;
-}
-
-
-
-
 
 
 
@@ -127,7 +118,6 @@ body {
 }
 
 .button_anchor {
-    text-decoration: none !important; 
     color: black !important;
 }
 
@@ -258,10 +248,10 @@ body {
   border-radius: 0px;
   letter-spacing: 2px;
   font-size: 13px;
-  font-family: "Indie Flower", "Playfair Display", "Times New Roman", serif;
+  font-family: 'Dosis', "Times New Roman", serif;
   font-weight: 600 !important;
   text-transform: uppercase !important;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0) 
 }
 
 
@@ -452,13 +442,7 @@ body {
 }
 /*Catering Header */
 
-/*Contact content*/
-.contact_h1 {
-  font-weight: 700;
-  font-size: 46px;
-  color: white;
-  line-height: 1.1em;
-}
+
 
 
 
@@ -512,6 +496,14 @@ body {
 
 
 
+/*Contact content*/
+.contact_h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+  line-height: 1.1em;
+}
+
 
 
 /* contact Form*/
@@ -519,12 +511,17 @@ input, label {
     display: block;
 }
 
+label {
+    text-align: left;
+    margin-left: 32px;
+}
+
 input[type=text], select, textarea {
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
   width: 85%;
  
 }
@@ -565,13 +562,14 @@ input[type=submit]:hover {
 
 #con_information {
     margin-left: 45px;
-    margin-top: 125px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    background-color: #f2f2f2;
 }
 
 
 #con_information h3 {
-margin-top: 60px;
+margin-top: 90px;
 }
 
 .fa-arrow-right{
@@ -594,13 +592,7 @@ margin-top: 60px;
 /* Site footer referenced from https://codepen.io/scanfcode/pen/MEZPNd-->*/
 /* Footer*/
 
-.black {
-  background-color: #d78258;
-  width: 100%;
-  height: 300px;
-  color: #ffffff;
-  text-align: center;
-}
+
 .site-footer {
   background-color: #ccdcc1;
   padding: 45px 0 20px;
@@ -628,8 +620,7 @@ margin-top: 60px;
   color: black;
 }
 .site-footer a:hover {
-  color: #3366cc;
-  text-decoration: none;
+  color: #ccdcc1;
 }
 .footer-links {
   padding-left: 0;
@@ -644,7 +635,7 @@ margin-top: 60px;
 .footer-links a:active,
 .footer-links a:focus,
 .footer-links a:hover {
-  color: #3366cc;
+  color:#d78258;
   text-decoration: none;
 }
 .footer-links.inline li {
