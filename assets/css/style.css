@@ -24,9 +24,9 @@ h6 {
 }
 
 body {
-  font-family: "Dosis", "Times New Roman", serif;
+  font-family: 'Dosis', "Times New Roman", serif;
   color: black;
-  font-size: 120%;
+  font-size: 30px;
   font-weight: 500;
 }
 .box-shadow{
@@ -546,12 +546,12 @@ input[type=submit] {
 
 
 /* Hover */
-input[type=submit]:hover {
+input[type=submit]:hover{
   background-color:#ccdcc1;
 }
 
 #con_form {
-
+  margin-left: 45px;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -561,10 +561,14 @@ input[type=submit]:hover {
 }
 
 #con_information {
-    margin-left: 45px;
     margin-top: 100px;
     margin-bottom: 75px;
     background-color: #f2f2f2;
+}
+
+#con_information a {
+    text-decoration: none;
+    
 }
 
 
@@ -594,7 +598,7 @@ margin-top: 90px;
 
 
 .site-footer {
-  background-color: #ccdcc1;
+  background-color:#ccdcc1;
   padding: 45px 0 20px;
   font-size: 17px;
   line-height: 24px;
@@ -656,20 +660,6 @@ margin-top: 90px;
 .copyright-text {
   margin: 0;
 }
-@media (max-width: 991px) {
-  .site-footer [class^="col-"] {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
-}
 
 .social-icons {
   padding-left: 0;
@@ -726,15 +716,31 @@ margin-top: 90px;
 .social-icons a.dribbble:hover {
   background-color: #ea4c89;
 }
-
-@media (max-width: 767px) {
-  .social-icons li.title {
+.social-icons li.title {
     display: block;
     margin-right: 0;
     font-weight: 600;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
   }
 }
-/* footer from referenced from https://codepen.io/scanfcode/pen/MEZPNd*/
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+
+  #con_form {
+      margin: 0;
+  }
+}
+/*referenced from https://codepen.io/scanfcode/pen/MEZPNd*/
 
 
 
