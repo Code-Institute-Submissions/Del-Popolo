@@ -108,11 +108,11 @@
             <div id="con_form" class="col-sm-12 col-lg-5  box-shadow text_center">
                <form>
                   <label for="fname">First Name</label>
-                  <input class="center" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                  <input class="center" type="text" id="fname" name="firstname" placeholder="Your name.." pattern="[a-zA-Z]*" required>
                   <label for="lname">Last Name</label>
-                  <input  class="center" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                  <input  class="center" type="text" id="lname" name="lastname" placeholder="Your last name.." pattern="[a-zA-Z]*" required>
                   <label for="email">Email</label>
-                  <input  class="center" type="text" id="email" name="email" placeholder="Your email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                  <input  class="center" type="email" id="email" name="email" placeholder="Your email.."  required>
                   <label for="subject">Subject</label>
                   <textarea id="subject" name="subject" placeholder="How can we help you?" style="height:200px" required></textarea>
                   <input  class="center" type="submit" value="Submit" >
